@@ -1,0 +1,43 @@
+body {
+    background-color: cyan;
+}
+
+#h11,
+#mausam1,
+#h1,
+#mausam {
+    text-align: center;
+    margin: 20px;
+}
+
+#h11,
+h1 {
+    color: white;
+    font-size: 35px;
+}
+
+#mausam1,
+#mausam {
+    color: blue;
+    font-size: 25px;
+}
+
+.field {
+    height: 300px;
+    width: 400px;
+    margin: 30px;
+    background-color: #00ff00;
+    transform: translate(125%, 5%);
+}
+
+#result {
+    height: 320px;
+    width: 550px;
+    margin: 30px;
+    transform: translate(80%, 10%);
+}
+
+#button {
+    background-color: blue;
+    color: white;
+}
