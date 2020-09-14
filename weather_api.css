@@ -1,0 +1,51 @@
+body {
+    background-color: cyan;
+}
+
+#h11,
+#mausam1,
+#h1,
+#mausam {
+    text-align: center;
+    margin: 20px;
+}
+
+#h11,
+h1 {
+    color: white;
+    font-size: 35px;
+}
+
+#mausam1,
+#mausam {
+    color: blue;
+    font-size: 25px;
+}
+
+.field {
+    height: 300px;
+    width: 400px;
+    background-color: #00ff00;
+    margin: 30px auto;
+}
+
+#result {
+    height: 350px;
+    width: 550px;
+    margin: 30px auto;
+}
+
+#button {
+    background-color: blue;
+    color: white;
+}
+
+#listen {
+    display: none;
+    font-size: 15px;
+    color: fuchsia;
+    width: 60px;
+    margin: 20px 240px;
+    padding: 2px 1px;
+    border-radius: 5px;
+}
