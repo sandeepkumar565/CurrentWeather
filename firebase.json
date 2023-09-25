@@ -1,6 +1,5 @@
 {
   "hosting": {
-    "site": "currentmausam-6083b",
     "public": "public",
     "ignore": [
       "firebase.json",

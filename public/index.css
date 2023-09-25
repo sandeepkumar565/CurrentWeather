@@ -1,5 +1,20 @@
+html,
 body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    margin: 0;
     background-color: cyan;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 #h11,
@@ -26,18 +41,39 @@ h1 {
     height: 300px;
     width: 400px;
     background-color: #00ff00;
-    margin: 30px auto;
+    padding: 30px;
+    margin: 0 auto;
+}
+
+.movingText {
+    color: black;
+    margin-top: 20px;
 }
 
 #result {
-    height: 350px;
     width: 550px;
+    padding: 10px;
     margin: 30px auto;
 }
 
 #button {
     background-color: blue;
     color: white;
+    cursor: pointer;
+}
+
+.centerText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.centerText input {
+    padding: 0 10px;
+    margin-left: 10px;
 }
 
 #listen {
@@ -45,7 +81,7 @@ h1 {
     font-size: 15px;
     color: fuchsia;
     width: 60px;
-    margin: 20px 240px;
-    padding: 2px 1px;
+    margin: 20px auto;
     border-radius: 5px;
+    cursor: pointer;
 }
